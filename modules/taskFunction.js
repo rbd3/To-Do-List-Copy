@@ -1,6 +1,6 @@
 import TODoTasks from './tasks.js';
 
-const task = document.getElementsByClassName('tasks')[0];
+const task = document.querySelector('.tasks');
 const addNew = document.createElement('input');
 addNew.type = 'text';
 addNew.placeholder = 'Add to your list...';
